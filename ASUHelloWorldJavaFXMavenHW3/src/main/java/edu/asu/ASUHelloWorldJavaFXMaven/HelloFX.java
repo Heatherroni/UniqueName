@@ -12,11 +12,11 @@ import javafx.stage.Stage;
 public class HelloFX extends Application {
 
     public void start(Stage primaryStage) {
-    	System.out.println("ASU Hello World!");
+    	System.out.println("In Class Github Activity");
     	System.out.println("It started!");
-        primaryStage.setTitle("ASU Hello World Fall 2024");
+        primaryStage.setTitle("In class Github Activity");
         Button btn = new Button();
-        btn.setText("Display: 'Heather says: Hello World!'");
+        btn.setText("Heather's second commit");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
                 System.out.println("Heather says: Hello World!");
